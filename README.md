@@ -1,4 +1,6 @@
-# Ember-cli-jquery-sparkline
+# Ember-hopscotch
+
+Ember add-on for Hopscotch framework
 
 This README outlines the details of collaborating on this Ember addon.
 
