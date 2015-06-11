@@ -2,26 +2,12 @@
 
 Ember add-on for Hopscotch framework
 
-This README outlines the details of collaborating on this Ember addon.
-
 ## Installation
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+* `ember install ember-hopscotch`
 
-## Running
+## Usage in Ember
+Hopscotch is added as a service so you can include it in your project by injecting the service
+`Ember.inject.service('hopscotch')` or by just using the global variable `hopscotch`
 
-* `ember server`
-* Visit your app at http://localhost:4200.
-
-## Running Tests
-
-* `ember test`
-* `ember test --server`
-
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
+To read more about the Hopscotch API and it's usage: http://linkedin.github.io/hopscotch/
