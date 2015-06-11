@@ -20,7 +20,9 @@ var app = new EmberAddon();
 
 
 app.import(app.bowerDirectory + '/hopscotch/dist/css/hopscotch.css');
-app.import(app.bowerDirectory + '/hopscotch/dist/js/hopscotch.js');
+app.import(app.bowerDirectory + '/hopscotch/dist/js/hopscotch.js', {
+  exports: { 'pretender': ['default'] }
+});
 //app.import(app.bowerDirectory + '/ember/ember-template-compiler.js');
 
 module.exports = app.toTree();
